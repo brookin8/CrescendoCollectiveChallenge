@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "concurrently": "^5.3.0"
+  },
+  "proxy": "http://localhost:3001",
+  "scripts": {
+    "client": "cd client && cd frontend-recipes-app && npm start",
+    "api": "cd api && npm run start:api",
+    "dev": "concurrently \"npm run api\" \"npm run client\""
+  }
+}
