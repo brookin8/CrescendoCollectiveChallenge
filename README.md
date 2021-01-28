@@ -1,5 +1,4 @@
-# CrescendoCollectiveChallenge
-Crescendo Collective Frontend Challenge
+# React 2 Hour Coding Challenge
 
 Steps for Running:
 1. In the command line, navigate to /api and run "npm i"
